@@ -1,4 +1,4 @@
-import React from 'react'
+ import React from 'react'
 import {userData, photo, cocktails} from '../data.js'
 import {Card, Button, Image, Loader} from 'semantic-ui-react'
 
@@ -85,7 +85,7 @@ export class Pokemon extends React.Component {
 		let content;
 
 		if (this.state.pokemon) {
-			content = 
+			content =
 			<div>
 				<h3>{this.state.pokemon.name}</h3>
 				<Image src={this.state.pokemon.sprites.front_default}/>
